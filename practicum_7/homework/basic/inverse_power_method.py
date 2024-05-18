@@ -11,7 +11,7 @@ def power_method(A: NDArrayFloat, n_iters: int):
         x = x / np.linalg.norm(x)
 
     eigenval_max = np.dot(x.T, A @ x) / np.dot(x.T, x)
-    return eigenval_max, x
+    return eigenval_max
 
 
 def inverse_power_method(A: NDArrayFloat, n_iters: int) -> NDArrayFloat:
