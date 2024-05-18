@@ -1,13 +1,3 @@
-import os
-
-import networkx as nx
-
-
-TEST_GRAPH_FILES = [
-    "graph_1_wo_cycles.edgelist",
-    "graph_2_w_cycles.edgelist",
-]
-
 
 import os
 
